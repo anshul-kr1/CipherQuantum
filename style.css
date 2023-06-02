@@ -1,0 +1,221 @@
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {
+  min-height: 100vh;
+  background: linear-gradient(#2b1055, #7597de);
+  overflow-x: hidden;
+}
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 30px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10000;
+}
+header .logo {
+  color: #fff;
+  font-weight: 700;
+  text-decoration: solid;
+  font-size: 2em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+header ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header ul li {
+  list-style: none;
+  margin-left: 20px;
+}
+header ul li a {
+  text-decoration: none;
+  padding: 6px 15px;
+  color: #fff;
+  border-radius: 20px;
+}
+header ul li a:hover,
+header ul li a:active {
+  background: #fff;
+  color: #2b1055;
+}
+section {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  padding: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+section::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  background: linear-gradient(to top, #1c0522, transparent);
+  z-index: 1000;
+}
+section img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  pointer-events: none;
+}
+section img#orb {
+  mix-blend-mode: screen;
+}
+section img#city {
+  z-index: 10;
+}
+#text {
+  position: absolute;
+  color: #fff;
+  white-space: nowrap;
+  font-size: 7.5vw;
+  z-index: 9;
+  right: -350px;
+}
+#btn {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 30px;
+  border-radius: 40px;
+  background: #fff;
+  color: #2b1055;
+  font-size: 1.5em;
+  z-index: 9;
+  transform: translateY(100px);
+}
+.sec {
+  position: relative;
+  padding: 100px;
+  background: #1c0522;
+}
+.sec h2 {
+  font-size: 3.5em;
+  margin-bottom: 10px;
+  color: #fff;
+}
+.sec p {
+  font-size: 1em;
+  color: #fff;
+}
+
+#text {
+  color: rgb(0, 54, 250);
+  font-size: 70px;
+  font-weight: bold;
+  font-family: Tahoma, sans-serif;
+}
+
+.neonText {
+  color: #fff;
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff,
+    0 0 42px rgb(238, 255, 0), 0 0 82px rgb(238, 255, 0),
+    0 0 92px rgb(238, 255, 0), 0 0 102px rgb(238, 255, 0),
+    0 0 151px rgb(238, 255, 0);
+}
+
+/* Additional styling */
+
+body {
+  font-size: 18px;
+  font-family: "Courier New", sans-serif;
+  background-color: #010a01;
+}
+
+h1,
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 4.2rem;
+}
+
+h2 {
+  font-size: 1.8rem;
+}
+
+.container {
+  margin-top: 20vh;
+}
+
+/* yeeeeee naya copy paste code hai */
+
+body {
+  background-color: #000000;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  width: 500px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #333333;
+  border-radius: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input,
+textarea {
+  width: 95%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: #444444;
+  color: #ffffff;
+  font-size: 16px;
+  max-width: 500px;
+}
+
+button {
+  width: 100px;
+  padding: 10px;
+  margin-right: 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: #002fff;
+  color: #ffffff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#resulttxt {
+  padding-top: 10px;
+}
+
+#simulation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Adjust as needed */
+}
